@@ -12,7 +12,7 @@ Install Grunt globally:
 
 ```npm install -g grunt-cli```
 
-When in root of project issue the following command in the terminal to download all modules:
+When in root of project issue the following command to download all modules:
 
 ```npm install```
 
@@ -27,6 +27,6 @@ Run the following command to watch for changes in files:
 
 ```grunt dev```
 
-Or simply this to do the tasks once:
+Or simply this command to do the tasks just once:
 
-```grunt```
+```grunt ```
