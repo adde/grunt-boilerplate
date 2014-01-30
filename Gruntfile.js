@@ -21,6 +21,9 @@ module.exports = function(grunt) {
         files: {
           'assets/css/dist/main.min.css': ['assets/css/build/main.css']
         }
+      },
+      options: {
+        keepSpecialComments: 0
       }
     },
 
@@ -55,7 +58,7 @@ module.exports = function(grunt) {
       },
       scripts: {
         files: ['assets/js/*.js'],
-        tasks: ['concat', 'uglify'],
+        tasks: ['jshint', 'concat', 'uglify'],
         options: {
           spawn: false,
         },
@@ -75,7 +78,7 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Where we tell Grunt what to do when we type "grunt" into the terminal.
-  grunt.registerTask('default', ['concat', 'uglify', 'sass', 'cssmin']);
+  grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'sass', 'cssmin']);
 
   // Where we tell Grunt what to do when we type "grunt dev" into the terminal.
   grunt.registerTask('dev', ['watch']);
