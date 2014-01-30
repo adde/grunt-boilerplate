@@ -6,7 +6,7 @@ Usage
 
 Install nodejs:
 
-```http://nodejs.org/```
+``` http://nodejs.org ```
 
 Install Grunt globally:
 
