@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'assets/js/libs/jquery-1.10.2.js',
+          'assets/js/libs/jquery.js',
           'assets/js/scripts.js'
         ],
         dest: 'assets/js/build/main.js',
