@@ -1,12 +1,12 @@
 grunt-boilerplate
 =================
 
-Usage
------
+Installation
+------------
 
-Install nodejs:
+Install node:
 
-``` http://nodejs.org ```
+[http://nodejs.org](http://nodejs.org)
 
 Install Grunt globally:
 
@@ -19,6 +19,9 @@ When in root of project issue the following command in the terminal to download 
 Install additional plugins:
 
 ```npm install grunt-plugin-name --save-dev```
+
+Usage
+-----
 
 Run the following command to watch for changes in files:
 
